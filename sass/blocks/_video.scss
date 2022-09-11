@@ -1,0 +1,70 @@
+.video {
+  width: 1440px;
+  height: 750px;
+  background: #245852;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  h1 {
+    position: absolute;
+    width: 480px;
+    height: 58px;
+    left: 107px;
+    top: 2697px;
+
+    font-family: "Georgia";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 157%;
+    /* or 79px */
+
+    color: #ffffff;
+  }
+
+  h6 {
+    position: absolute;
+    width: 450px;
+    height: 29px;
+    left: 107px;
+    top: 2840px;
+
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 157%;
+    color: #ffffff;
+  }
+
+  button {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 50px;
+    gap: 30px;
+
+    position: absolute;
+    width: 240px;
+    height: 65px;
+    left: 107px;
+    top: 2930px;
+
+    background: #01996d;
+    border: 1px solid #01996d;
+    border-radius: 4px;
+  }
+}
+.video_obzor {
+  img {
+    position: absolute;
+    width: 700px;
+    height: 420px;
+    left: 618px;
+    top: 2616px;
+  }
+}
